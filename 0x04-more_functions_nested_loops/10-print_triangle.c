@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
 */
 
-int main(void)
+void print_triangle(int size);
 {
 	print_trianglr(2);
 	print_trianglr(10);
