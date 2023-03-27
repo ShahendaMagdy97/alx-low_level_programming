@@ -3,8 +3,8 @@
 /**
  * swap_int - swap the values of two integers
  *
- * @a: int paramete 1
- * @b: int paramete 2
+ * @a: integer to swap
+ * @b: integer to swap
  *
  * Return: Nothing
 */
