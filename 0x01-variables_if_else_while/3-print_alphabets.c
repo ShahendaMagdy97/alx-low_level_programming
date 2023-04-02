@@ -10,21 +10,17 @@
 
 int main(void)
 {
-	char n = 'a';
-	char m = 'A';
+	int n = 97;
+	int m = 65;
 
-	/*prints a - z*/
-	while (n <= 'z')
+	while (n <= 122)
 	{
 		putchar(n);
-		ch++;
 	}
 
-	/*prints A - Z*/
-	while (m <= 'Z')
+	while (m <= 90)
 	{
 		putchar(m);
-		ch++;
 	}
 	putchar('\n');
 
