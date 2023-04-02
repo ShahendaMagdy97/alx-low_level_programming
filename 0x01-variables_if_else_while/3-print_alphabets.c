@@ -10,20 +10,20 @@
 
 int main(void)
 {
-	char ch = 'a';
-	char ch = 'A';
+	char n = 'a';
+	char m = 'A';
 
 	/*prints a - z*/
-	while (ch <= 'z')
+	while (n <= 'z')
 	{
-		putchar(ch);
+		putchar(n);
 		ch++;
 	}
 
 	/*prints A - Z*/
-	while (ch <= 'Z')
+	while (m <= 'Z')
 	{
-		putchar(ch);
+		putchar(m);
 		ch++;
 	}
 	putchar('\n');
