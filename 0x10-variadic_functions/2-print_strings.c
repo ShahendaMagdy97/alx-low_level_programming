@@ -10,6 +10,8 @@
  *
  * Description: If separator is NULL, it is not printed.
  * If one of the strings is NULL, (nil) is printed instead
+ *
+ * Return: void
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
