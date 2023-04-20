@@ -23,6 +23,6 @@ op_t ops[] = {
 		if (s && s[0] == ops[i].op[0] && !s[1])
 		return (ops[i].f);
 			i++;
-			}
+	}
 	return (NULL);
 }

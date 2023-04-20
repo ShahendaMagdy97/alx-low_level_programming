@@ -41,7 +41,7 @@ int op_mul(int a, int b)
  * @a: the first int
  * @b: the second int
  *
- * Return: the quotient
+ * Return: the result of the division
 */
 int op_div(int a, int b)
 {
@@ -53,7 +53,7 @@ int op_div(int a, int b)
  * @a: the first int
  * @b: the second int
  *
- * Return: the remainder
+ * Return: the remainder of the division
 */
 int op_mod(int a, int b)
 {
