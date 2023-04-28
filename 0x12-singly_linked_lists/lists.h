@@ -25,9 +25,9 @@ int _putchar(char c);
 int _strlen(char *sl);
 size_t print_list(const list_t *fp);
 size_t list_len(const list_t *fp);
-list_t *add_node(list_t **head, const char *str);
-list_t *add_node_end(list_t **head, const char *str);
-void free_list(list_t *head);
+list_t *add_node(list_t **padd, const char *strn);
+list_t *add_node_end(list_t **padd, const char *strn);
+void free_list(list_t *hp);
 void _constructor(void) __attribute__ ((constructor));
 
 #endif
