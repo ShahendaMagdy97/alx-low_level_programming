@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod u+x * && chmod u-x README.md && chmod u-x main.h && chmod u-x _putchar.c && git add . && git commit -m "done" && git push 
