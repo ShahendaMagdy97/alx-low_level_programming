@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod u+x * && echo "test">README.md &&  chmod u-x README.md && git add . && git commit -m "done" && git push 
